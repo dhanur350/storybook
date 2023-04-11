@@ -5,4 +5,4 @@ export default {
     component:Form
 }
 
-export const FormRed = ()=> <Form/>
+export const FormRed = ()=> <Form labelName="Name" placeholder="Enter the input"/>

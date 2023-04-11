@@ -1,8 +1,16 @@
 import React from 'react'
 
-function Form() {
+interface IFrom{
+    labelName?:string;
+    placeholder?:string;
+}
+
+function Form({labelName,placeholder}:IFrom) {
   return (
-    <div>Form</div>
+    <form action="" method='get'>
+        <label htmlFor="">{labelName}</label>
+        <input type="text" placeholder={placeholder} name="" id="" />
+    </form>
   )
 }
 
